@@ -719,7 +719,7 @@ ul.social-list-mob {
 #switch3:checked ~ #controls label:nth-child(2),
 #switch4:checked ~ #controls label:nth-child(3),
 #switch5:checked ~ #controls label:nth-child(4) {
-  background: url("../../images/back-backward-left.png") no-repeat;
+  background: url("https://i.postimg.cc/MKKK3NqD/back-backward-left.png") no-repeat;
   float: left;
   margin: 0 0 0 -140px;
   display: block;
@@ -732,7 +732,7 @@ ul.social-list-mob {
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1) {
-  background: url("../../images/back-backward-right.png") no-repeat;
+  background: url("https://i.postimg.cc/zfYs6HTr/back-backward-right.png") no-repeat;
   float: right;
   margin: 0 -140px 0 0;
   display: block;
@@ -942,7 +942,7 @@ label, a {
 
 .sticky {
   background: var(--primary-text-color);
-  background-image: url(/images/header.webp);
+  background-image: url(https://i.postimg.cc/rwH6JYwK/header.webp);
   background-size: cover;
   background-position: top;
   color: var(--wite);
@@ -984,7 +984,7 @@ label, a {
 .hero {
   position: relative;
   background-color: var(--primary-text-color);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/bg-hero2.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.postimg.cc/nh2rhx2N/luca-bravo-9l-326-FISzk-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1281,7 +1281,7 @@ label, a {
 .section-project {
   position: relative;
   background-color: var(--primary-text-color);
-  background-image: url(../../images/bg-project.webp);
+  background-image: url(https://i.postimg.cc/sxY0CTz9/jon-flobrant-v1e-V6-HUdc-IE-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
