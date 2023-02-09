@@ -1,0 +1,168 @@
+.hero{
+    position: relative;
+    background-color: var(--primary-text-color);
+  background-image:  linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+  url(../../images/bg-hero2.webp);
+   
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+    vertical-align: middle;
+    margin: auto 0;
+    text-align: center; 
+    color:#fff;
+    width: 100%;
+    min-height: 100vh;
+
+  
+   
+}
+.hero-wrap-text{
+   position: absolute;
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:100px ;
+    
+}
+.hero-wrap-content{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    display: inline;
+    margin-bottom: 20px;
+color:rgba(255,255,255,0.9);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    font-weight: 900;
+        letter-spacing: -.32px;
+        line-height: 1.8;
+        
+    @include tablet{
+        font-size: 72px;  
+    }
+    
+}
+.title:after{
+    content: attr(title);  
+  position:absolute; 
+  color:rgba(255,255,255,0.1) ;
+  left:0;  
+  top:80%;  
+  width:100%;  
+  height:100%;  
+  -moz-transform: scaleY(-1);  
+  -o-transform: scaleY(-1);  
+  -webkit-transform: scaleY(-1);  
+  -ms-transform: scaleY(-1);  
+  transform: scaleY(-1);  
+  z-index: 1;
+}
+.title:before {  
+    content: "";  
+    display: block;  
+    width: 100%;  
+    height: 80%;  
+    
+    position: absolute;  
+    left: 0;  
+    top: 112%;  
+    z-index: 2;  
+  }  
+.blesk_teksta:hover {
+    text-align: center;
+    color: rgba(236, 228, 228, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff), color-stop(0.8, #4e4e4e));
+    -webkit-background-size: 100px 100%;
+    -moz-background-size: 100px 100%;
+    background-size: 100px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #fff;
+  }
+  @-moz-keyframes shimmer {
+    0% {
+    background-position: top left;
+    }
+    100% {
+    background-position: topright;
+    }
+  }
+  @-webkit-keyframes shimmer {
+    0% {
+    background-position: top left;
+    }
+    100% {
+    background-position: top right;
+    }
+  }
+  @-o-keyframes shimmer {
+    0% {
+    background-position: top left;
+    }
+    100% {
+    background-position: top right;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+    background-position: top left;
+    }
+    100% {
+    background-position: bottom right;
+    }
+  }
+
+.hero-text {
+    margin:  32px auto;
+    max-width: 640px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    
+    font-weight: 400;
+    
+    
+    @include tablet{
+        font-size: 20px;
+    }
+}
+.text-contaner{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    }
+.text-contaner p{
+    width: 13ch;
+    font-family: 'Babylonica', cursive;
+    font-size: 26px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    margin-left: 30%;
+    overflow:hidden ;
+    animation: printed-text 8s ease;
+      
+}
+
+
+@keyframes printed-text {
+    from {
+        width: 0%;
+    }
+}

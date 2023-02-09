@@ -1,0 +1,121 @@
+.section-about{
+   
+    background-image:var(--wite);
+    overflow: hidden;
+    padding: 140px 0 0;  
+}
+.wrap-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    
+}
+.about-photo{
+    
+    background-image: url(../../images/photo.webp);
+    position: absolute;
+   top:88vh;
+  
+    width: 300px;
+    height: 300px;
+     overflow: hidden;
+    border-radius: 50%;
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+    transition: all .5s;
+   
+}
+.about-photo:hover{
+    box-shadow: 0px -10px 20px var(--wite), 0 5px 20px rgba(0,0,0,1);
+}
+
+.about-photo-img{
+    
+   
+    box-shadow: inset 0px 0px 35px 26px rgba(0,0,0,1);
+    width: 600px;
+   
+    transition: transform 0.5s ;
+    
+}
+.about-photo:hover .about-photo-img{
+   
+    transform: scale(1.8);
+    
+}
+.about-info{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    
+    gap:50px;
+    
+}
+.about-info .title-section_title{
+    color:var(--accent-color);
+}
+.about-info-list{
+    width: 450px;
+}
+.about-info-title{
+    width: 300px;
+}
+.about-info-item{
+    color: #73788c;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.65;
+        letter-spacing: -0.24px;
+        @include tablet{
+            font-size: 17px; 
+        }
+}
+.about-info-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    color: #73788c;
+    
+}
+.about-info-link img{
+    margin-left: 10px;
+}
+.about-info-link .certificate{
+display: none;
+position: absolute;
+right: 105%;
+width: 300px;
+z-index: 100;
+transform: translateY(40%);
+  animation-name: Appearance;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+ 
+}
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+.about-info-link:hover .certificate{
+    display: block;
+    
+}

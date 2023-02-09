@@ -1,0 +1,135 @@
+// .slider{
+//   display: flex;
+//   width:80vw;
+//   max-height: 900px;
+ 
+//   overflow: hidden;
+//   margin: 0 10px;
+//  }
+// .section-project-list{
+  // position: relative;
+  // overflow: hidden;
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 24px 20px;
+//   justify-content: center;
+//   margin: 0 auto 70px;
+  
+//   width: 40vw;
+//   max-height:1150px;
+ 
+// }
+
+ .section-project-item{
+  
+  transition: all ease .6s;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  text-align:start;
+
+  max-height: 1150px;
+
+  background: #fff;
+  border: 1px solid #e3e4e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 0 #dedfe3;
+
+    
+      
+    }
+    #slides .section-project-item ul technologies-item{
+       width: 100%;
+    }
+.section-project-item img{
+  border-radius: 7%;
+}
+
+.section-progress-mob{
+      display: none;
+      @include tablet{
+        display: flex;
+      }
+    }
+
+.btn.section-progress-btn-tab{
+      margin: 15px 0;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      @include tablet{
+        display: none;
+      }
+    }
+
+.cart-content-wrap{
+  margin-top: 20px;
+  padding:20px;
+  // display: grid;
+  // grid-template-columns: 200px 1fr;
+  // grid-row-gap: 1em;
+  // justify-items: start;
+  //   align-items: start;
+}
+.section-project-item h2{ 
+  margin: 7px 0;
+
+  color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+   
+}
+.section-project-item h3{ 
+  margin-bottom: 7px;
+
+  color: var(--accent-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+   
+}
+.section-project-item h3 span{
+  color: #73788c;
+}
+.section-project-item p,
+.section-project-item li{
+   margin-bottom: 0;
+  color: #73788c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+   
+}
+.section-project-item a{
+  display: flex;
+  flex-grow: 1;
+  align-items: self-end; 
+  margin-top: 16px;
+    
+  color:var(--accent-color);
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+   
+  text-decoration: none;
+  transition: .3s;
+  }
+  .section-project-item a:hover {
+    opacity: .45;
+}
+
+ .arrow svg{
+  fill:var(--accent-color);
+  text-decoration: none;
+  opacity: .25;
+}
+.arrow svg:hover,
+.arrow svg:active,
+.arrow svg:focus {
+  opacity: 1;
+ }
+
+ 

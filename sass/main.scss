@@ -1,0 +1,30 @@
+@import "./utils/vars";
+@import "./utils/hidden";
+@import "./utils/mixins";
+
+@import "./base/commom";
+@import "./base/reset";
+
+@import "./components/container";
+@import "./components/logo";
+@import "./components/close-button";
+@import"./components/title";
+@import "./components/cart";
+@import"./components/animation";
+
+@import"./components/btn";
+@import"./components/mob-menu";
+@import"./components/dropdown";
+@import"./components/social";
+@import"./components/slider";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import"./layout/about";
+@import"./layout/project";
+
+
+
+@import "./layout/footer";
+
+

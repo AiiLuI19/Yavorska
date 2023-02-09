@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yavorska | FrontEnd Developer</title>
+   
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body id="body">
+   
+    <!-- -------------- * HEADER *----------------- -->
+    <header  class="header ">  
+      <div class=" header-nav">
+      <div class=" header__wrap container ">
+       <nav class="nav">
+          <a class="logo" href="#">
+            <img alt="logo" src="./images/logo_wite.png" width="250">
+          </a>
+          
+            <ul class="nav-list">
+           
+            <li class="nav-item"><a class="nav-link" href="#" >About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" >Work experience</a></li>
+           
+            
+            <li class="nav-item dropdown "> 
+              <a class="nav-link dropdown-toggle " href="#"> Project experience <i class="arrow-down "></i>  </a> 
+              <ul  class="dropdown_menu is-hidden" > 
+                  <li class="dropdown-menu-item"> 
+                    <a class="dropdown-menu-link" href="https://quokkaice.com/" target="_blank"> 
+                      <div class="dropdown-menu-svg_wrap">
+                        <svg  width="35" height="35">
+                          <use href="./images/symbol-defs.svg#icon-wordpress"></use>
+                      </svg>
+                      </div> 
+                    <div class="dropdown-menu-text"> 
+                      <h2> Quokkaice </h2> 
+                         <p>  An online store with all the tools you need to
+                          build, manage, and grow business.
+                           </p> </div> 
+                            <span class="icon"> <i class=" dropdown-menu-arrow-right"></i> </span> </a> </li> 
+                  <li class="dropdown-menu-item"> 
+                    <a class="dropdown-menu-link" href="https://aiilui19.github.io/fanatic_iam/" target="_blank"> 
+                      <div class="dropdown-menu-svg_wrap">
+                        <svg  width="35" height="35">
+                          <use href="./images/symbol-defs.svg#icon-CSS3_and_HTML5_logos_and_wordmarkssvg"></use>
+                      </svg> 
+                         </div> 
+                           <div class="dropdown-menu-text"> 
+                            <h2> FanaticIam</h2> 
+                            <p> This landing page is intended for seekers of a sharp sensation. </p> </div>
+                             <span class="icon"> <i class=" dropdown-menu-arrow-right"></i> </span> </a> </li> 
+                  <li class="dropdown-menu-item"> 
+                    <a class="dropdown-menu-link" href="https://mkundeev.github.io/team-project-js-200ok/" target="_blank"> 
+                      <div class="dropdown-menu-svg_wrap"> 
+                        <svg  width="35" height="35">
+                          <use href="./images/symbol-defs.svg#icon-javascript"></use>
+                      </svg> </div> 
+                     <div class="dropdown-menu-text"> 
+                      <h2> Filmoteca </h2> 
+                        <p> Mobile-first adaptive one-page site - Filmoteca.
+                          Implemented the footer, modal windown, dark theme and
+                          performed the role of scrum master </p> </div> 
+                           <span class="icon"> <i class=" dropdown-menu-arrow-right "></i> </span> </a> </li> 
+                  <li class="dropdown-menu-item"> 
+                  <a class="dropdown-menu-link" href="https://vladmw5.github.io/react-kapusta-project/" target="_blank"> 
+                    <div class="dropdown-menu-svg_wrap"> 
+                       <svg  width="35" height="35">
+                         <use href="./images/symbol-defs.svg#icon-react"></use>
+                    </svg> </div> 
+                    <div class="dropdown-menu-text"> 
+                    <h2> Kapu$ta </h2> 
+                      <p> An application for accounting of finances with
+                        authorization, a profile page, the ability to add and delete
+                        Transactions with the display of an interactive histogram.
+                        completed the footer, dark theme and character </p> </div> 
+                         <span class="icon"> <i class=" dropdown-menu-arrow-right "></i> </span> </a> </li> 
+                           
+                          </ul> </li>              
+                  
+            <li class="nav-item"><a class="nav-link" href="#" >Contact</a></li>
+            
+          </ul></nav>
+                                 
+            
+            
+          <div class="wrapp">
+            <ul class="social-list">
+
+               <li class="social-item"> 
+                <a class="social-link link" data-bs-toggle="modal" href="#telegramChatModal" role="button"> 
+                  <svg  width="44" height="45">
+                    <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                </svg>
+              </a> </li> 
+                <li class="social-item">  
+                  <a class="social-link link" href="https://discord.gg/iguverse" target="_blank"> 
+                    <svg  width="44" height="45">
+                      <use href="./images/symbol-defs.svg#icon-github"></use>
+                  </svg>
+                 </a> </li> 
+                  <li class="social-item"> 
+                    <a class="social-link link" href="https://twitter.com/iguverse" target="_blank" rel="nofollow"> 
+                      <svg  width="44" height="45">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a> </li> 
+                    <li class="social-item"> 
+                      <a class="social-link link" href="https://linktr.ee/iguverse" target="_blank" rel="nofollow">
+                        <svg  width="44" height="45">
+                          <use href="./images/symbol-defs.svg#icon-viber"></use>
+                      </svg> </a> </li> 
+                  </ul> 
+           
+                  
+        </div>
+  </div>
+</div>
+      <!-- MOB Menu -->
+      <div class="mob-menu is-hidden container">
+        <div class="container">
+          <div class="wrap-top-mob">
+            <a class="logo" href="#">
+              <svg xmlns="#" class="logo-svg" width="154" height="24" viewBox="0 0 154 24" fill="none"> 
+               
+                  <path d="M73.4569 0.61377L71.8266 3.69024L67.9445 11.0762L64.054 3.69024L62.4237 0.61377H58.8694L60.4954 3.69024L67.9445 17.8436L75.3851 3.69024L77.0112 0.61377H73.4569Z" fill="#fff" /> 
+                    <path d="M82.2426 3.69024H95.2254V0.61377H82.2426C79.5993 0.61377 77.4709 2.70874 77.4709 5.26558V13.1918C77.4709 15.7528 79.6035 17.8478 82.2426 17.8478H95.2254V14.7713H82.2426C81.353 14.7713 80.6166 14.0537 80.6166 13.1918V9.94627H92.0457V6.8698H80.6166V5.26558C80.6209 4.40368 81.353 3.69024 82.2426 3.69024Z" fill="#fff" /> 
+                    <path d="M109.583 9.89281C110.064 9.84333 110.524 9.72373 110.954 9.52166C112.605 8.78347 113.746 7.16276 113.746 5.28636C113.746 4.00794 113.214 2.85323 112.35 1.99133C111.486 1.15417 110.29 0.638672 108.974 0.638672H97.7454V17.8685H100.921V9.9423H104.096C105.241 9.9423 106.229 10.532 106.786 11.4187L106.863 11.563L108.566 14.7879L110.196 17.8644H113.75L112.124 14.7879L109.583 9.89281ZM100.921 6.89058V3.71514H108.974C109.532 3.71514 109.915 3.96257 110.119 4.1564C110.294 4.33373 110.6 4.72138 110.6 5.29049C110.6 5.90496 110.222 6.47406 109.638 6.71737C109.43 6.81635 109.204 6.86584 108.974 6.86584L100.921 6.89058Z" fill="#fff" /> 
+                    <path d="M133.135 5.36456V5.26558C133.135 2.70874 130.973 0.61377 128.329 0.61377H121.114C118.471 0.61377 116.343 2.70874 116.343 5.26558V5.36456C116.343 6.35018 116.64 7.25745 117.181 7.99976C117.356 8.27194 117.56 8.51526 117.79 8.73795C118.654 9.55037 119.82 10.0411 121.114 10.0411H127.516C128.861 10.0411 129.985 11.1051 129.985 12.4041C129.985 13.7032 128.861 14.7713 127.516 14.7713H121.953C120.608 14.7713 119.518 13.7073 119.518 12.4041H116.343C116.343 15.4064 118.858 17.8478 121.953 17.8478H127.516C130.615 17.8478 133.131 15.4064 133.131 12.4041C133.131 11.101 132.645 9.89266 131.858 8.95652C131.781 8.88641 131.73 8.81218 131.658 8.73795C130.641 7.65748 129.164 6.96465 127.516 6.96465H121.114C120.225 6.96465 119.488 6.25121 119.488 5.3893V5.29033C119.488 4.42842 120.225 3.71498 121.114 3.71498H128.329C129.219 3.71498 129.96 4.42842 129.96 5.29033V5.3893L133.135 5.36456Z" fill="#fff" />
+                     <path d="M140.473 3.69024H153.46V0.61377H140.473C137.83 0.61377 135.702 2.70874 135.702 5.26558V13.1918C135.702 15.7528 137.834 17.8478 140.473 17.8478H153.46V14.7713H140.473C139.584 14.7713 138.847 14.0537 138.847 13.1918V9.94627H150.277V6.8698H138.847V5.26558C138.852 4.40368 139.584 3.69024 140.473 3.69024Z" fill="#fff" /> 
+                     <path d="M13.8214 0.584961V10.2969C14.694 10.6433 15.3793 10.8289 16.0987 11.0062C16.2136 11.035 16.5371 11.1175 16.9969 11.2412V0.584961H13.8214Z" fill="#fff" /> 
+                     <path d="M28.4345 3.66533H37.3266V0.588867H28.4345C23.5308 0.588867 19.5381 4.45301 19.5381 9.20792C19.5381 10.2801 19.7424 11.307 20.1127 12.2555C21.1641 12.7421 25.6208 15.1175 28.1152 16.0908L28.2897 16.1568C30.5415 17.0352 33.7978 17.9218 37.3266 18.4703V8.36664H28.4345V11.4431H34.1511V14.7423H28.4345C25.2846 14.7423 22.7178 12.2555 22.7178 9.2038C22.7178 6.15207 25.2803 3.66533 28.4345 3.66533Z" fill="#fff" /> 
+                     <path d="M54.4809 0.609863V9.73616C54.4809 12.7879 51.9141 15.2746 48.7642 15.2746C45.6143 15.2746 43.0475 12.7879 43.0475 9.73616V0.609863H39.8721V9.73616C39.8721 14.487 43.8605 18.3511 48.7642 18.3511C53.6678 18.3511 57.6606 14.487 57.6606 9.73616V0.609863H54.4809Z" fill="#fff" /> 
+                     <path d="M29.788 17.5386C31.0394 17.9427 32.4484 18.3262 33.9552 18.6562C33.8403 20.1985 33.3082 21.6295 32.4654 22.842C30.6308 22.6069 28.9324 22.3265 27.4639 22.0502C28.66 20.8336 29.4943 19.2748 29.788 17.5386Z" fill="#fff" /> 
+                     <path d="M39.1313 19.5262C39.208 20.8294 39.0334 22.1738 38.6461 23.3739C37.2073 23.3161 35.7771 23.2089 34.4022 23.0687C35.1088 21.8439 35.5643 20.4747 35.7048 19.0107C36.82 19.2169 37.9693 19.3943 39.1313 19.5262Z" fill="#fff" /> 
+                     <path d="M44.1883 19.8193C44.3798 20.9328 44.4479 22.1246 44.3713 23.271C43.0986 23.3783 41.7918 23.4236 40.485 23.4154C40.8127 22.2401 40.966 20.9616 40.9192 19.6997C42.0131 19.7822 43.1071 19.8234 44.1883 19.8193Z" fill="#fff" /> 
+                     <path d="M48.5854 19.4849C48.9004 20.4375 49.1302 21.419 49.2792 22.4335C48.2874 22.7098 47.2403 22.916 46.1549 23.0686C46.1676 22.8211 46.1719 22.5737 46.1719 22.3221C46.1719 21.452 46.1038 20.5983 45.9761 19.7653C46.87 19.7117 47.7426 19.621 48.5854 19.4849Z" fill="#fff" />
+                      <path d="M52.8761 18.2808C53.2549 18.9447 53.5954 19.6293 53.8977 20.3345C53.0378 20.9531 52.0588 21.4603 50.9904 21.8686C50.8414 20.9325 50.62 20.0211 50.3391 19.1303C51.2373 18.9117 52.0886 18.6313 52.8761 18.2808Z" fill="#fff" />
+                       <path d="M57.6562 13.4229C57.4604 15.7446 56.6091 17.7241 55.2895 19.1221C55.0256 18.5489 54.7404 17.9922 54.4297 17.4478C55.8897 16.5076 57.0135 15.0724 57.6562 13.4229Z" fill="#fff" /> 
+                       <path d="M28.0811 16.9324C27.8512 18.8417 26.8126 20.5161 25.3015 21.6172C23.4499 21.2254 22.3559 20.7305 20.2915 20.681C20.4404 19.815 20.2233 18.6067 19.67 18.2561C20.2787 19.2088 20.0446 20.4583 19.1975 20.8377H14.247C14.8727 20.0047 16.2264 19.7449 17.3416 19.749C17.1884 18.8582 16.7797 16.7715 17.0309 16.2189C17.2863 15.6622 17.9929 15.724 18.5547 15.7694C19.1166 15.8148 20.9725 16.0705 22.2452 16.5736C21.4578 16.0127 18.393 14.8498 16.9926 15.555C15.7837 16.1076 16.7755 18.8211 16.9542 19.3366C16.486 19.1428 15.7028 18.817 15.2303 18.6191C14.8983 14.8374 10.7566 13.6703 10.8375 13.9013C11.3695 14.0291 13.3914 15.2003 13.7703 16.0828C14.3066 17.0355 14.9536 18.1201 14.8813 19.1964C14.7919 19.7655 14.0725 20.4913 13.7192 20.8336C12.5742 20.7429 9.90525 20.6068 9.04541 20.5614C9.65411 19.5593 11.4036 19.8191 12.5231 20.4171C12.5061 20.4336 12.8423 20.0212 13.0509 19.7655C13.2084 19.5758 13.3659 19.3861 13.4638 19.2789C12.8168 18.4087 12.2592 17.3241 11.9229 16.2931C10.846 16.2148 10.0202 16.021 9.30506 15.6993C9.76904 16.2767 10.9949 16.5653 11.808 16.6932C11.9442 17.1757 12.1485 17.9427 12.4209 18.285C11.5951 18.1077 10.0585 17.32 9.71796 16.986C9.68816 18.2685 8.27496 20.0006 6.96391 20.3264L2.02195 20.281C2.09857 18.7387 3.93744 19.2459 4.45249 19.7037C4.45249 19.7037 5.9338 19.7903 6.219 19.481C6.30839 18.9778 7.18951 17.5427 7.79821 16.8375C7.01499 13.328 6.51696 11.6867 7.33424 11.5094C8.65805 11.2454 8.59846 10.2969 7.7599 9.49276C8.71765 11.4516 7.41512 10.6887 6.73831 11.431C6.00191 12.4579 6.61487 13.9879 7.02776 15.8065C5.13356 16.2313 5.01011 14.0662 4.3631 12.9321C4.68235 13.0229 4.99309 13.1507 5.24423 13.3404C4.4227 11.7774 2.15817 10.0907 0.481049 8.7422C0.161801 8.52775 0.174571 8.32568 0.259704 8.05762C0.84712 6.40392 3.30746 6.1936 5.33787 6.5895C6.81067 6.87405 8.62826 5.81007 9.90951 6.73796C9.39871 6.80807 8.55164 6.85755 7.662 7.23696C8.03658 7.39779 8.26644 7.57512 8.45799 7.76895C9.82437 7.31531 11.6803 7.24108 12.8083 7.98339C12.3273 8.11948 10.846 7.97102 9.3306 8.75457C9.48384 8.89891 9.67113 9.05149 9.90525 9.22058C10.9056 8.97314 12.0038 8.9319 12.5912 9.41028C12.2634 9.45976 11.5866 9.48863 10.7906 9.76081C13.3191 11.1712 15.0771 11.5671 17.6311 12.2641C20.4702 12.9692 24.0756 15.3488 28.0811 16.9324Z" fill="#fff" /> 
+                   
+                    </svg> 
+              </a>
+          <button type="button" class="menu-close-btn">
+            <svg class="menu-close__icon" width="15" height="15">
+                <use href="./images/symbol-defs.svg#icon-cross"></use>
+            </svg></button></div>
+
+        <nav class="mob-menu__nav">
+          <ul class="mob-menu-list">
+            <li ><a  href="#" target="_blank">About me</a></li>
+            <li class="nav-item"><a  href="#" target="_blank">Work experience</a></li>
+            <li class="nav-item"><a  href="#" target="_blank">Project experience</a></li>
+            <li class="nav-item"><a  href="#" target="_blank">Contact</a></li>
+               </ul>
+              
+                <ul class="social-list-mob social-list ">
+    
+                   <li class="social-item "> 
+                    <a class="social-link link" data-bs-toggle="modal" href="#telegramChatModal" role="button"> 
+                      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 36" fill="none"> 
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.52477 17.2197C15.3359 11.5748 23.2118 7.85334 27.1526 6.0553C38.4042 0.921549 40.7422 0.0297614 42.2661 0.000313975C42.6012 -0.00616265 43.3506 0.0849547 43.8361 0.51704C44.246 0.881885 44.3587 1.37474 44.4127 1.72065C44.4667 2.06656 44.5339 2.85456 44.4804 3.47028C43.8707 10.498 41.2324 27.5524 39.8902 35.4236C39.3223 38.7542 38.204 39.8709 37.1213 39.9802C34.7685 40.2177 32.9819 38.2745 30.7031 36.6358C27.1372 34.0717 25.1227 32.4755 21.6613 29.9733C17.6612 27.0817 20.2543 25.4924 22.534 22.895C23.1306 22.2152 33.4972 11.8717 33.6978 10.9334C33.7229 10.816 33.7462 10.3786 33.5093 10.1476C33.2724 9.91661 32.9228 9.9956 32.6704 10.0584C32.3128 10.1475 26.6162 14.2778 15.5807 22.4494C13.9637 23.6674 12.4992 24.2609 11.1869 24.2298C9.74032 24.1955 6.95761 23.3325 4.88895 22.5949C2.35165 21.6901 0.335059 21.2118 0.510659 19.6752C0.602123 18.8749 1.60683 18.0564 3.52477 17.2197Z" fill="#29A9EB" /> </svg> </a> </li> 
+                    <li class="social-item">  
+                      <a class="social-link link" href="https://discord.gg/iguverse" target="_blank"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="45" height="45" viewBox="0 0 45 45" fill="none"> 
+                      <path d="M37.7479 2.81841C34.9435 1.51389 31.9362 0.552779 28.7919 0.00230915C28.7346 -0.00831475 28.6774 0.0182349 28.6479 0.0713356C28.2611 0.768712 27.8327 1.6785 27.5327 2.39358C24.1508 1.88029 20.7862 1.88029 17.4736 2.39358C17.1736 1.6626 16.7296 0.768712 16.3411 0.0713356C16.3116 0.0200066 16.2544 -0.00654305 16.1971 0.00230915C13.0545 0.55102 10.0472 1.51213 7.24106 2.81841C7.21677 2.82903 7.19595 2.84675 7.18213 2.86974C1.47789 11.5092 -0.0847433 19.9363 0.681831 28.259C0.685299 28.2997 0.707845 28.3386 0.739064 28.3634C4.50256 31.1653 8.14815 32.8663 11.726 33.9938C11.7833 34.0115 11.844 33.9903 11.8804 33.9425C12.7268 32.7708 13.4812 31.5353 14.1281 30.236C14.1662 30.16 14.1298 30.0697 14.0518 30.0396C12.8551 29.5794 11.7156 29.0183 10.6195 28.3811C10.5328 28.3298 10.5259 28.2041 10.6056 28.1439C10.8363 27.9687 11.067 27.7863 11.2873 27.6023C11.3271 27.5686 11.3826 27.5615 11.4295 27.5828C18.6304 30.9158 26.4262 30.9158 33.5421 27.5828C33.589 27.5598 33.6445 27.5669 33.6861 27.6005C33.9064 27.7846 34.1371 27.9687 34.3695 28.1439C34.4492 28.2041 34.444 28.3298 34.3573 28.3811C33.2612 29.0307 32.1217 29.5794 30.9233 30.0378C30.8453 30.0679 30.8106 30.16 30.8488 30.236C31.5095 31.5335 32.264 32.7689 33.0947 33.9407C33.1294 33.9903 33.1918 34.0115 33.2491 33.9938C36.8443 32.8663 40.4899 31.1653 44.2534 28.3634C44.2863 28.3386 44.3072 28.3014 44.3106 28.2607C45.2281 18.6388 42.774 10.2808 37.8051 2.8715C37.793 2.84675 37.7722 2.82903 37.7479 2.81841Z" fill="#6254FF" /> 
+                      <path d="M11.249 18.6955C11.249 21.1736 13.0353 23.1914 15.2033 23.1914C17.4058 23.1914 19.1575 21.1736 19.1575 18.6955C19.1922 16.2352 17.4232 14.1997 15.2033 14.1997C13.0007 14.1997 11.249 16.2175 11.249 18.6955Z" fill="white" /> 
+                      <path d="M25.8694 18.6955C25.8694 21.1736 27.6558 23.1914 29.8237 23.1914C32.0436 23.1914 33.778 21.1736 33.778 18.6955C33.8126 16.2352 32.0436 14.1997 29.8237 14.1997C27.6211 14.1997 25.8694 16.2175 25.8694 18.6955Z" fill="white" /> </svg> </a> </li> 
+                      <li class="social-item"> 
+                        <a class="social-link link" href="https://twitter.com/iguverse" target="_blank" rel="nofollow"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none"> 
+                        <path d="M14.3371 36C30.941 36 40.0226 22.1485 40.0226 10.1366C40.0226 9.74317 40.0226 9.35152 39.9962 8.96163C41.7629 7.67486 43.288 6.0816 44.5 4.25646C42.8526 4.99192 41.1047 5.47402 39.315 5.68662C41.1997 4.55073 42.6101 2.76394 43.2838 0.658902C41.5118 1.7178 39.5732 2.464 37.5515 2.86528C36.1904 1.40798 34.3903 0.442993 32.4297 0.119647C30.4691 -0.203699 28.4573 0.132625 26.7056 1.07657C24.9539 2.02052 23.5601 3.51947 22.7397 5.34146C21.9193 7.16345 21.7182 9.20691 22.1674 11.1556C18.5783 10.9743 15.0672 10.0351 11.862 8.39897C8.65678 6.76282 5.82907 4.46628 3.5624 1.65842C2.408 3.65951 2.05443 6.02841 2.57368 8.28277C3.09293 10.5371 4.44596 12.5075 6.35728 13.7926C4.92059 13.7502 3.51519 13.36 2.26 12.6549V12.7701C2.26057 14.8687 2.98206 16.9026 4.3021 18.5267C5.62213 20.1508 7.45945 21.2651 9.5024 21.6807C8.17338 22.0457 6.77894 22.0991 5.42624 21.8366C6.00333 23.6426 7.12645 25.222 8.63861 26.3538C10.1508 27.4856 11.9763 28.1133 13.8602 28.1492C11.9885 29.6306 9.84508 30.7259 7.5526 31.3724C5.26013 32.0189 2.86356 32.2039 0.5 31.9169C4.62836 34.5844 9.43186 35.9994 14.3371 35.9929" fill="#1DA1F2" /> </svg> </a> </li> 
+                        <li class="social-item"> 
+                          <a class="social-link link" href="https://linktr.ee/iguverse" target="_blank" rel="nofollow">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                        <g clip-path="url(#clip0_307_18754)"> <path d="M16.9679 1.28542C16.2396 -8.75294e-05 14.3474 -8.75294e-05 13.6196 1.28542L1.09945 23.5714C0.516923 24.7144 1.39044 25.9999 2.70071 25.9999H11.1443V34.4283C11.1443 35.2856 11.8726 35.9999 12.7461 35.9999H17.6957C18.5692 35.9999 19.2969 35.2856 19.2969 34.4283V25.9999H16.9679C15.9486 25.9999 15.2209 25.2856 15.0751 24.4282C15.0751 24.1426 15.0751 23.857 15.2209 23.5682L22.209 11.1397L16.9679 1.28542Z" fill="#39E09B" /> 
+                        <path d="M28.0321 1.28542C28.7603 -8.75294e-05 30.6526 -8.75294e-05 31.3803 1.28542L43.9005 23.5714C44.4831 24.7144 43.6095 25.9999 42.2993 25.9999H34.0009V34.4283C34.0009 35.2856 33.2731 35.9999 32.398 35.9999H27.1585C26.285 35.9999 25.5573 35.2856 25.5573 34.4283V25.9999H27.8868C28.9056 25.9999 29.6333 25.2856 29.7791 24.4282C29.7791 24.1426 29.7791 23.857 29.6333 23.5682L22.6458 11.1429L28.0321 1.28542Z" fill="#28BF7B" /> </g>
+                        <defs> <clipPath id="clip0_307_18754"> <rect width="45" height="45" fill="white" transform="translate(0.5)" /> </clipPath> </defs> </svg> </a> </li> </ul> 
+            
+        </nav>
+        </div>
+
+    </div></header>
+    <!-- -------------- * MAIN *----------------- -->
+
+    
+    
+    <main>
+      <!-- -------------- * HERO *----------------- -->
+       <section class="hero ">
+      <div class="container hero-wrap-text">
+    
+        <h1 class="title blesk_teksta" title="Hi, I'm Yuliia Yavorska!"> Hi, I'm Yuliia Yavorska! </h1>
+       
+        
+        <p class="hero-text">I am looking for being a part of a friendly and professional team where I could develop my JavaScript, React development skills to achieve team results.
+    </p> 
+   
+    <div class="text-contaner">
+      <p> "See you soon!"</p>
+    </div>
+    
+      
+    </div>
+    </section>
+    
+
+   
+<!-- section-about-me -->
+  <section class="section-about">
+    <div class=" title-section container">
+      <div class="about-photo" >
+        <img src="images/photo2.webp" alt="my photo" loading="lazy" class="about-photo-img"/>
+        
+        </div>
+<div class="about-info">
+
+<h2 class="title-section_title about-info-title"> About me </h2>
+<p class="title-section_text">I am a front-end developer with a desire to learn and grow in a
+  collaborative team environment. Skilled in HTML, CSS, JavaScript
+  and Node.js . I have a strong practical experience in team and
+  individual projects. I like studing and coding. I am looking for an
+  entry-level position with Company to use my skills in coding,
+  troubleshooting complex problems and assisting in the timely
+  completion of projects.
+  </p>
+</div>
+<div class="about-info">
+  <h2 class="title-section_title about-info-title">Soft skills</h2>
+  <ul class="about-info-list">
+    <li class="about-info-item ">Organizational;</li>
+    <li class="about-info-item ">High motivation;</li>
+    <li class="about-info-item">Committed;</li>
+    <li class="about-info-item">Ability to work under pressure;</li>
+    <li class="about-info-item">Conflict management;</li>
+    <li class="about-info-item">Sales Ability;</li>
+    <li class="about-info-item">Willingness to learn;</li>
+    <li class="about-info-item">Team work;</li>
+    <li class="about-info-item">Critical thinking and problem solving;</li>
+  </ul>
+</div>
+<div class="about-info">
+  <h2 class="title-section_title about-info-title">Technical skills</h2>
+  <ul class="about-info-list">
+    <li class="about-info-item ">HTML5/CSS3 (SASS / LESS);</li>
+    <li class="about-info-item ">JavaScript;</li>
+    <li class="about-info-item">React;</li>
+    <li class="about-info-item">Node.js;</li>
+    <li class="about-info-item">REST API, JSON;</li>
+    <li class="about-info-item">Experience with Redux;</li>
+    <li class="about-info-item">Experience with React Native;</li>
+    <li class="about-info-item">Software application (WordPress);</li>
+    <li class="about-info-item">Git;</li>
+  </ul>
+</div>
+    </div>
+   
+    
+  </section>
+  <!-- ANIMATION -->
+ 
+  <section class="slide-option">
+    
+    <div id="infinite" class="highway-slider">
+      <div class=" highway-barrier">
+        <ul class="highway-lane">
+          <li class="highway-car"><span class="fab fa-angular">
+            <svg  width="100" height="100" class="fab fa-js">
+            <use href="./images/symbol-defs.svg#icon-wordpress"></use>
+        </svg></span></li>
+      
+          <li class="highway-car"><span class="fab fa-js">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-file-css"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-node">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-file-html"></use>
+          </svg> </span></li>
+         
+          <li class="highway-car"><span class="fab fa-html5">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-git"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-less">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-github"></use>
+          </svg> </span></li>
+         
+          <li class="highway-car"><span class="fab fa-gulp">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-reactos"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-stack-overflow">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-nativescript"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-codepen">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-redux"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-aws">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-sass"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-gitlab">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-react"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-chrome">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-javascript"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-google">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-node-dot-js"></use>
+          </svg>          </span></li>
+
+          
+          <li class="highway-car"><span class="fab fa-angular">
+            <svg  width="100" height="100" class="fab fa-js">
+            <use href="./images/symbol-defs.svg#icon-wordpress"></use>
+        </svg></span></li>
+      
+          <li class="highway-car"><span class="fab fa-js">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-file-css"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-node">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-file-html"></use>
+          </svg> </span></li>
+         
+          <li class="highway-car"><span class="fab fa-html5">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-git"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-less">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-github"></use>
+          </svg> </span></li>
+         
+          <li class="highway-car"><span class="fab fa-gulp">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-reactos"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-stack-overflow">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-nativescript"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-codepen">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-redux"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-aws">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-sass"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-gitlab">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-react"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-chrome">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-javascript"></use>
+          </svg></span></li>
+          
+          <li class="highway-car"><span class="fab fa-google">
+            <svg  width="100" height="100" class="fab fa-js">
+              <use href="./images/symbol-defs.svg#icon-node-dot-js"></use>
+          </svg>          </span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- EDUCATION -->
+  <section class="section-education">
+    <div class=" title-section container">
+      <div class="about-info">
+        <h2 class="title-section_title about-info-title">Education</h2>
+        <ul class="about-info-list">
+          <li class="about-info-item "><a href="#" class="about-info-link"><h3>IT School GoIT</h3><img src="images/mouse-pointer.webp" width="15" height="15"/>
+            <img class="certificate"src="images/Yuliia-Yavorska.webp" loading="lazy"></a>
+            <p>Full stack developer (Bootcamp) <br>March 2022 - August 2022</p></li>
+          <li class="about-info-item "><h3>Kryvyi Rih National University</h3><p>Management of Foreign Economic
+            <br>Activities: master’s degree<br>September, 2007- July, 2012</p></li>
+          
+        </ul>
+      </div>
+      <div class=" title-section container">
+        <div class="about-info">
+          <h2 class="title-section_title about-info-title">Languages</h2>
+          <ul class="about-info-list">
+            <li class="about-info-item ">English - pre-Intermediate</li>
+            <li class="about-info-item ">Ukrainian - native</li>
+            <li class="about-info-item ">Russian - proficiency</li>
+            
+          </ul>
+        </div>
+
+    </div>
+
+</section>
+  <!-- WORK EXPERIENCE -->
+  <section class="section-education">
+    <div class=" title-section container">
+      <div class="about-info">
+        <h2 class="title-section_title about-info-title">Work Experience</h2>
+        <ul class="about-info-list">
+          <li class="about-info-item "><h3>DEPUTE DIRECTOR</h3>
+            <h4>ТHE COMPANY ‘NEW SIGHT, KRYVYI RIH' | MAR 2017 - DEC 2021</h4>
+            <ul>
+              <li>Implemented marketing strategies</li>
+              <li>Strategized with team to win market share from competitors</li>
+              <li>Exceeded sales plans since 2016 by an average of 25%</li>
+              <li>Strategy of the medical center in case of unforeseen
+                circumstances
+                </li>
+              <li>Influensed costs reduction by 10%
+              </li>
+              <li>Increased high level service of Medical center that led to
+                enlarge revenue
+                </li>
+            
+            </ul></li>
+          <li class="about-info-item "><h3>ADMINISTRATOR</h3>
+            <h4>THE COMPANY ‘NEW SIGHT, KRYVYI RIH' | SEP 2012 - MAR 2017</h4>
+            <ul>
+              <li>Annual overfulfilment of plans, at least by 18%</li>
+              <li>Analyzed incomings and outgoings and annual forecasts</li>
+              <li>Established consultation programs for company</li>
+              
+            
+            </ul>
+            
+          </li>
+          
+        </ul>
+      </div>
+</section>
+
+  <!-- PROJECT EXPERIENCE -->
+  <section class="section-project section-about  "> 
+    <div class="container">
+    <div class=" title-section">
+      <h2 class="title-section_title ">Project experience</h2>
+    </div>
+    <input checked type="radio" name="respond" id="desktop">
+    <article id="slider">
+      <input checked type="radio" name="slider" id="switch1">
+					<input type="radio" name="slider" id="switch2">
+					<input type="radio" name="slider" id="switch3">
+					<input type="radio" name="slider" id="switch4">
+					<input type="radio" name="slider" id="switch5">
+    <!-- <a class="arrow" id="leftArrow" href="#"><svg  width="45" height="45">
+      <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+  </svg></a> -->
+  <div id="slides">
+    <div id="overflow">
+    <ul class="section-project-list image "  >
+      <li class="section-project-item slider-item">
+        <img src="images/Filmoteka-scrin.jpg" alt="site screen Filmoteka" loading="lazy"/> 
+        
+        <div class="cart-content-wrap">
+        <h2><b>Filmoteka</b></h2> 
+        <p>Filmoteka is adaptive SPA for searchimg movies. This application allows you to create your own user account to store a list of watched movies and movies you want to watch. Also, based on the user's preferences, a list of recommended films will be created. Aplication has dark and light mode.</p> 
+        <h3>Used technologies: <span>HTML5, SASS, JS</span></h3>
+       
+          
+        <p>This project was created with Parcel. For dating and setting additional features refer to documentation;<br>
+          For user registration and authorization was used Firebase Authentication;<br>
+          For data storage was used Firebase Realtime Database;<br>
+          Information about movies is receiving from Movie Database API<br>
+
+          
+        </p>
+        
+        </div>
+
+        <a target="_blank" href="https://mkundeev.github.io/team-project-js-200ok/">  Link <i class="fa-thin fa-arrow-up-right"></i> </a>
+      </li>
+      <li class="section-project-item slider-item">
+        <img src="images/Filmoteka-scrin.jpg" alt="site screen Filmoteka" loading="lazy"/> 
+        
+        <div class="cart-content-wrap">
+        <h2>Filmoteka</h2> 
+        <p>Filmoteka is adaptive SPA for searchimg movies. This application allows you to create your own user account to store a list of watched movies and movies you want to watch. Also, based on the user's preferences, a list of recommended films will be created. Aplication has dark and light mode.</p> 
+        <h3>Used technologies</h3>
+        <div>
+          <p><b>HTML5, SASS, JS</b></p>
+        <ul>
+          <li>This project was created with Parcel. For dating and setting additional features refer to documentation;</li>
+        <li>For user registration and authorization was used Firebase Authentication;</li>
+        <li>For data storage was used Firebase Realtime Database;</li>
+        <li>Information about movies is receiving from Movie Database API</li>
+        </ul>
+        </div>
+        </div>
+
+        <a target="_blank" href="https://mkundeev.github.io/team-project-js-200ok/">  Link <i class="fa-thin fa-arrow-up-right"></i> </a>
+      </li>
+      <li class="section-project-item slider-item">
+        <img src="images/Filmoteka-scrin.jpg" alt="site screen Filmoteka" loading="lazy"/> 
+        
+        <div class="cart-content-wrap">
+        <h2>Filmoteka</h2> 
+        <p>Filmoteka is adaptive SPA for searchimg movies. This application allows you to create your own user account to store a list of watched movies and movies you want to watch. Also, based on the user's preferences, a list of recommended films will be created. Aplication has dark and light mode.</p> 
+        <h3>Used technologies</h3>
+        <div>
+          <p><b>HTML5, SASS, JS</b></p>
+        <ul>
+          <li>This project was created with Parcel. For dating and setting additional features refer to documentation;</li>
+        <li>For user registration and authorization was used Firebase Authentication;</li>
+        <li>For data storage was used Firebase Realtime Database;</li>
+        <li>Information about movies is receiving from Movie Database API</li>
+        </ul>
+        </div>
+        </div>
+
+        <a target="_blank" href="https://mkundeev.github.io/team-project-js-200ok/">  Link <i class="fa-thin fa-arrow-up-right"></i> </a>
+      </li>
+      <li class="section-project-item slider-item">
+        <img src="images/Filmoteka-scrin.jpg" alt="site screen Filmoteka" loading="lazy"/> 
+        
+        <div class="cart-content-wrap">
+        <h2>Filmoteka</h2> 
+        <p>Filmoteka is adaptive SPA for searchimg movies. This application allows you to create your own user account to store a list of watched movies and movies you want to watch. Also, based on the user's preferences, a list of recommended films will be created. Aplication has dark and light mode.</p> 
+        <h3>Used technologies</h3>
+        <div>
+          <p><b>HTML5, SASS, JS</b></p>
+        <ul>
+          <li>This project was created with Parcel. For dating and setting additional features refer to documentation;</li>
+        <li>For user registration and authorization was used Firebase Authentication;</li>
+        <li>For data storage was used Firebase Realtime Database;</li>
+        <li>Information about movies is receiving from Movie Database API</li>
+        </ul>
+        </div>
+        </div>
+
+        <a target="_blank" href="https://mkundeev.github.io/team-project-js-200ok/">  Link <i class="fa-thin fa-arrow-up-right"></i> </a>
+      </li>
+      <li class="section-project-item slider-item">
+        <img src="images/Filmoteka-scrin.jpg" alt="site screen Filmoteka" loading="lazy"/> 
+        
+        <div class="cart-content-wrap">
+        <h2>Filmoteka</h2> 
+        <p>Filmoteka is adaptive SPA for searchimg movies. This application allows you to create your own user account to store a list of watched movies and movies you want to watch. Also, based on the user's preferences, a list of recommended films will be created. Aplication has dark and light mode.</p> 
+        <h3>Used technologies</h3>
+        <div>
+          <p><b>HTML5, SASS, JS</b></p>
+        <ul>
+          <li>This project was created with Parcel. For dating and setting additional features refer to documentation;</li>
+        <li>For user registration and authorization was used Firebase Authentication;</li>
+        <li>For data storage was used Firebase Realtime Database;</li>
+        <li>Information about movies is receiving from Movie Database API</li>
+        </ul>
+        </div>
+        </div>
+
+        <a target="_blank" href="https://mkundeev.github.io/team-project-js-200ok/">  Link <i class="fa-thin fa-arrow-up-right"></i> </a>
+      </li>
+     
+    </ul>
+    <!-- <a class="arrow" id="rightArrow" href="#"><svg  width="45" height="45">
+      <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+  </svg></a> --></div></div>
+  <div id="controls">
+    <label for="switch1"></label>
+    <label for="switch2"></label>
+    <label for="switch3"></label>
+    <label for="switch4"></label>
+    <label for="switch5"></label>
+  </div>
+  <div id="active">
+    <label for="switch1"></label>
+    <label for="switch2"></label>
+    <label for="switch3"></label>
+    <label for="switch4"></label>
+    <label for="switch5"></label>
+  </div>
+</article>
+
+    <div class="section-progress-wrapp-btn">
+    <button type="button" class="intro_btn btn section-progress-btn-tab show-btn hide-btn" >Learn More <span class="arrow-up-right"></span></button>
+      </div>
+  </section>
+    </main>
+
+ 
+
+    <!-- ------------ FOOTER ---------------------->
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <a class="logo" href="#">
+            <img alt="logo" src="./images/logo_wite.png" width="250">
+          </a>
+          <h2>Footer</h2>
+          <ul class="footer-contact">
+            <li><a href="https://goo.gl/maps/kpfzXcPA9hKJDibu9" target="_blank" title="Kryviy Rih, Ukraine">Kryviy Rih, Ukraine</a></li>
+            <li><a href="tel:+380679523002">(067) 952 30 02</a></li>
+            <li><a href="mailto:iuliiaiavorskaia@gmail.com">iuliiaiavorskaia@gmail.com</a></li>
+          </ul>
+        </div>
+        
+
+        <ul class="social-list">
+
+          <li class="social-item"> 
+           <a class="social-link link" data-bs-toggle="modal" href="#telegramChatModal" role="button"> 
+             <svg  width="44" height="45">
+               <use href="./images/symbol-defs.svg#icon-telegram"></use>
+           </svg>
+         </a> </li> 
+           <li class="social-item">  
+             <a class="social-link link" href="https://discord.gg/iguverse" target="_blank"> 
+               <svg  width="44" height="45">
+                 <use href="./images/symbol-defs.svg#icon-github"></use>
+             </svg>
+            </a> </li> 
+             <li class="social-item"> 
+               <a class="social-link link" href="https://twitter.com/iguverse" target="_blank" rel="nofollow"> 
+                 <svg  width="44" height="45">
+                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+               </svg>
+             </a> </li> 
+               <li class="social-item"> 
+                 <a class="social-link link" href="https://linktr.ee/iguverse" target="_blank" rel="nofollow">
+                   <svg  width="44" height="45">
+                     <use href="./images/symbol-defs.svg#icon-viber"></use>
+                 </svg> </a> </li> 
+             </ul>
+        
+        
+      </div>
+  
+  </footer>
+  </body>
+
+
+ <script src="./js/menu.js"></script>
+ <script src="./js/sub_menu.js"></script>
+ <script src="./js/paralax.js"></script>
+ <script src="./js//slider.js"></script>
+ 
+  <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+      var header= document.querySelector(".header-nav");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+ 
+  
+</html>

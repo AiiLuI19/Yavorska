@@ -1,0 +1,29 @@
+.btn{
+    cursor: pointer;
+    display: block;
+    height: 100%; 
+    padding: 12px 20px;
+    color: #393c46;
+    
+    background: #bdffe9;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 0 #86dfc2;
+    
+    font-weight: 800;
+    line-height: 1.6;
+   
+    text-decoration: unset;
+    transition: all .5s;
+    @include pretablet{
+        display: inline;
+    }
+    
+}
+
+.btn:hover:not(disabled) {
+    background: #9fd;
+    color: #393c46;}
+
+   
+   
